@@ -1,11 +1,11 @@
 
-## Olá eu sou o Fernando Castilho!
+## Hello, I'm Fernando Castilho!
 
 <br>
 
 <div align="center">
   <p style="text-align: justify;">
-  "Desgraçado do homem que se abandona. Essas seis palavras indicam, que por pior que seja a situação, o homem nunca deve considerá-la perdida." - O Condicionado
+  As a Senior Backend Developer, I have expertise in various key areas. I am proficient in cloud infrastructure technologies such as AWS S3, EC2, Cognito, Elastic Cloud, Google Firebase, and Oracle Cloud. I excel in API containerization using Docker and have advanced knowledge in managing rules for Solr, Nginx, and Apache. I possess skills in project coordination, including sprint management, requirement gathering, task allocation, and overseeing deployment and version control. Additionally, I have experience in DNS management. As an API developer, I have extensive experience in TDD, SOLID principles, REST, NestJS, and Adonis frameworks. I am also capable of implementing CI/CD through Github Actions. My current role reflects my experience and leadership, working with teams to develop high-quality solutions.
   </p>
 </div>
 
