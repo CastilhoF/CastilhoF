@@ -1,11 +1,16 @@
 
-## Hello, I'm Fernando Castilho!
+## Olá, sou o Fernando Castilho!
 
 <br>
 
 <div align="center">
-  <p style="text-align: justify">
-  As a Senior Backend Developer, I have expertise in various key areas. I am proficient in cloud infrastructure technologies such as AWS S3, EC2, Cognito, Elastic Cloud, Google Firebase, and Oracle Cloud. I excel in API containerization using Docker and have advanced knowledge in managing rules for Solr, Nginx, and Apache. I possess skills in project coordination, including sprint management, requirement gathering, task allocation, and overseeing deployment and version control. Additionally, I have experience in DNS management. As an API developer, I have extensive experience in TDD, SOLID principles, REST, NestJS, and Adonis frameworks. I am also capable of implementing CI/CD through Github Actions. My current role reflects my experience and leadership, working with teams to develop high-quality solutions.
+  <p style="text-align: justify; width: 70%">
+    Tenho mais de 10 anos de experiência na área de Tecnologia de Informação entre duas ramificações da área, Governança e Desenvolvimento Web (base NodeJS e me especializando no framework NestJS). 
+
+Como desenvolvedor backend pleno, tenho experiência em diversas áreas-chave. Tenho proficiência em tecnologias de infraestrutura em nuvem como AWS S3, EC2, Cognito, Elastic Cloud, Google Firebase e Oracle Cloud. Sou excelente em conteinerização de APIs usando Docker e possuo conhecimento avançado em gerenciamento de regras para Solr, Nginx e Apache. Domino estilos de design de software como SOLID e REST, tenho ótimos conhecimento em Clean Architecture e Hexagonal Architecture, sempre visando a abstração e boas práticas na arquitetura adotada, abordando sempre o TDD como base antes do código que vai para produção. Como desenvolvedor de APIs, tenho vasta experiência por implementações de solução externa, principalmente integrações com APIs do ramo financeiro (bancos, entre outros) e Smart Contracts (Neste ultimo e mais recente, venho me especializando com mais ênfase. Meu uso de linguagem baseia-se em Javascript (com e sem o superset Typescript), tenho conhecimento em ReactJS, PHP, HTML e CSS, Phyton, breve conhecimento em GoLang e Solidity. Trabalho com frameworks como Adonis, NestJS, Angular e Next.
+
+Possuo habilidades em coordenação de projetos, incluindo gerenciamento de sprint, coleta de requisitos, alocação de tarefas e supervisão de implantação e controle de versão. Além disso, tenho experiência em gerenciamento de DNS. Também sou capaz de implementar CI/CD através do Github Actions. Minha função atual reflete minha experiência e liderança, trabalhando com equipes para desenvolver soluções de alta qualidade.
+
   </p>
 </div>
  
