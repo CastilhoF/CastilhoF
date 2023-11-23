@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://github.com/CastilhoF">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=CastilhoF&show_icons=true&count_private=true&theme=tokyonight&include_all_commits=truelocale=pt-br&rank_icon=github&"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=CastilhoF&show_icons=true&count_private=true&theme=tokyonight&include_all_commits=true&locale=pt-br&rank_icon=github"/>
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CastilhoF&layout=compact&langs_count=7&theme=tokyonight&locale=pt-br"/>
 </div>
 
