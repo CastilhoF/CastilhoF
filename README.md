@@ -5,7 +5,7 @@
 
 <div align="center">
   <div style="text-align: justify; display: inline-block; max-width: 90%">
-    Tenho mais de 10 anos de experiência na área de Tecnologia de Informação entre duas ramificações da área, Governança e Desenvolvimento Web (base NodeJS e me especializando no framework NestJS). Como desenvolvedor backend pleno, tenho experiência em diversas áreas-chave. 
+    Tenho mais de 10 anos de experiência na área de Tecnologia de Informação entre duas ramificações da área, Governança e Desenvolvimento Web (base NodeJS e me especializando no framework NestJS). Como desenvolvedor backend senior, tenho experiência em diversas áreas-chave. 
     Tenho proficiência em tecnologias de infraestrutura em nuvem como AWS S3, EC2, Cognito, Elastic Cloud, Google Firebase e Oracle Cloud. Sou excelente em conteinerização de APIs usando Docker e possuo conhecimento avançado em gerenciamento de regras para Solr, Nginx e Apache. Domino estilos de design de software como SOLID e REST, tenho ótimos conhecimento em Clean Architecture e Hexagonal Architecture, sempre visando a abstração e boas práticas na arquitetura adotada, abordando sempre o TDD como base antes do código que vai para produção. Como desenvolvedor de APIs, tenho vasta experiência por implementações de solução externa, principalmente integrações com APIs do ramo financeiro (bancos, entre outros) e Smart Contracts (Neste ultimo e mais recente, venho me especializando com mais ênfase. Meu uso de linguagem baseia-se em Javascript (com e sem o superset Typescript), tenho conhecimento em ReactJS, PHP, HTML e CSS, Phyton, breve conhecimento em GoLang e Solidity. Trabalho com frameworks como Adonis, NestJS, Angular e Next. Possuo habilidades em coordenação de projetos, incluindo gerenciamento de sprint, coleta de requisitos, alocação de tarefas e supervisão de implantação e controle de versão. Além disso, tenho experiência em gerenciamento de DNS. Também sou capaz de implementar CI/CD através do Github Actions. Minha função atual reflete minha experiência e liderança, trabalhando com equipes para desenvolver soluções de alta qualidade.
   </div>
 </div>
@@ -20,9 +20,7 @@
 
 ##
 
-<h3>Linguagens</h3>
 <div align="center" style="display: inline_block"><br>
-  <img align="center" alt="Castilho-NodeJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
   <img align="center" alt="Castilho-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Castilho-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Castilho-Golang" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
@@ -32,12 +30,6 @@
   <img align="center" alt="Castilho-Solidity" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg">
   <img align="center" alt="Castilho-Php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
   <img align="center" alt="Castilho-Shell" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg">
-</div>
-
-##
-
-<h3>Frameworks</h3>
-<div align="center" style="display: inline_block"><br>
   <img align="center" alt="Castilho-Adonis" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg">
   <img align="center" alt="Castilho-Nest" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg">
   <img align="center" alt="Castilho-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
@@ -45,21 +37,9 @@
   <img align="center"alt="Castilho-Next" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg">
   <img align="center"alt="Castilho-Express" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
   <img align="center"alt="Castilho-Vue" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg">
-</div>
-
-##
-
-<h3>Plataformas</h3>
-<div align="center" style="display: inline_block"><br>
   <img align="center" alt="Castilho-NodeJS" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
   <img align="center" alt="Castilho-Java" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
   <img align="center" alt="Castilho-Php" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
-</div>
-
-##
-
-<h3>Banco de Dados</h3>
-<div align="center" style="display: inline_block"><br>
   <img align="center" alt="Castilho-Mongo" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
   <img align="center" alt="Castilho-MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
   <img align="center" alt="Castilho-Postgres" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
@@ -71,32 +51,14 @@
   <img align="center" alt="Castilho-Firebase" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg">
   <img align="center" alt="Castilho-Sanity" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/sanity.svg">
   <img align="center" alt="Castilho-Solr" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/solr.svg">
-</div>
-
-##
-
-<h3>Devops / Infraestrutura</h3>
-<div align="center" style="display: inline_block"><br>
   <img align="center" alt="Castilho-Docker" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/docker-4.svg">
   <img align="center" alt="Castilho-Kubernates" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg">
   <img align="center" alt="Castilho-AWS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg">
   <img align="center" alt="Castilho-GoogleCloud" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg">
   <img align="center" alt="Castilho-OracleCloud" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg">
   <img align="center" alt="Castilho-Vercel" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/vercel.svg">
-</div>
-
-  ##
- 
-<h3>Servidor HTTP</h3>
-<div align="center" style="display: inline_block"><br>
   <img align="center" alt="Castilho-Apache" height="60" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg">
   <img align="center" alt="Castilho-Nginx" height="60" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg">
-</div>
-
-  ##
-   
-<h3>Versionamento</h3>
-<div align="center" style="display: inline_block"><br>
   <img align="center" alt="Castilho-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   <img align="center" alt="Castilho-Gitlab" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg">
   <img align="center" alt="Castilho-Bitbucket" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg">
