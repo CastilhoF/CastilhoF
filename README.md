@@ -53,7 +53,7 @@
   <img align="center" alt="Castilho-Solr" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/solr.svg">
   <img align="center" alt="Castilho-Docker" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/docker-4.svg">
   <img align="center" alt="Castilho-Kubernates" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg">
-  <img align="center" alt="Castilho-AWS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg">
+  <img align="center" alt="Castilho-AWS" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/amazon-web-services.svg">
   <img align="center" alt="Castilho-GoogleCloud" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg">
   <img align="center" alt="Castilho-OracleCloud" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg">
   <img align="center" alt="Castilho-Vercel" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/vercel.svg">
