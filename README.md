@@ -33,10 +33,12 @@
 
 <br/>
 
-Building tools that make developers' lives easier.
-Passionate about distributed systems, developer experience, and the open-source ecosystem.
+- 🚀 Software Engineer with 7+ years of experience in building scalable web applications and APIs.
+- 🌐 Proficient in JavaScript, TypeScript, Node.js, and React.
+- 🛠️ Passionate about clean code, best practices, and continuous learning.
+- 🎓 Bachelor's degree in Information Systems from Anhembi Morumbi University.
 
-**Currently at** Stellar Labs — San Francisco, CA
+**Currently at** HubCode Labs — São Paulo, SP, Brazil
 
 </details>
 

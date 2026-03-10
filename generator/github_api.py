@@ -17,7 +17,7 @@ class GitHubAPI:
 
     def __init__(self, username: str, token: str = None):
         self.username = username
-        self.token = token or os.environ.get("GITHUB_TOKEN", "")
+        self.token = token or os.environ.get("TOKEN", "")
         self.headers = {"Accept": "application/vnd.github.v3+json"}
         if self.token:
             self.headers["Authorization"] = f"Bearer {self.token}"
@@ -126,9 +126,7 @@ class GitHubAPI:
 
     def _fetch_stats_rest(self) -> dict:
         """Fallback: fetch stats via REST API (public data only)."""
-        user_resp = self._request(
-            "GET", f"{self.REST_URL}/users/{self.username}"
-        )
+        user_resp = self._request("GET", f"{self.REST_URL}/users/{self.username}")
         user_resp.raise_for_status()
         user_data = user_resp.json()
 
@@ -193,7 +191,9 @@ class GitHubAPI:
             )
             if resp.status_code == 200:
                 return resp.json().get("total_count", 0)
-            logger.warning("Search API returned %d for query '%s'", resp.status_code, query)
+            logger.warning(
+                "Search API returned %d for query '%s'", resp.status_code, query
+            )
         except requests.exceptions.RequestException as e:
             logger.warning("Search API failed for '%s': %s", query, e)
         return 0
