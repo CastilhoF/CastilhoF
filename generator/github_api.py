@@ -17,7 +17,10 @@ class GitHubAPI:
 
     def __init__(self, username: str, token: str = None):
         self.username = username
-        self.token = token or os.environ.get("TOKEN", "")
+        self.token = (
+            token or os.environ.get("TOKEN", "") or os.environ.get("GITHUB_TOKEN", "")
+        )
+        self._use_authenticated_repo_listing = None
         self.headers = {"Accept": "application/vnd.github.v3+json"}
         if self.token:
             self.headers["Authorization"] = f"Bearer {self.token}"
@@ -165,12 +168,19 @@ class GitHubAPI:
 
     def _paginate_repos(self):
         """Yield pages of owned repos from the REST API."""
+        endpoint = f"{self.REST_URL}/users/{self.username}/repos"
+        params = {"per_page": 100, "type": "owner"}
+
+        if self._should_use_authenticated_repo_listing():
+            endpoint = f"{self.REST_URL}/user/repos"
+            params = {"per_page": 100, "visibility": "all", "affiliation": "owner"}
+
         page = 1
         while True:
             repos_resp = self._request(
                 "GET",
-                f"{self.REST_URL}/users/{self.username}/repos",
-                params={"per_page": 100, "page": page, "type": "owner"},
+                endpoint,
+                params={**params, "page": page},
             )
             repos_resp.raise_for_status()
             repos = repos_resp.json()
@@ -180,6 +190,37 @@ class GitHubAPI:
             if len(repos) < 100:
                 break
             page += 1
+
+    def _should_use_authenticated_repo_listing(self) -> bool:
+        """Use /user/repos only when the token belongs to the configured user."""
+        if not self.token:
+            return False
+
+        if self._use_authenticated_repo_listing is not None:
+            return self._use_authenticated_repo_listing
+
+        try:
+            resp = self._request("GET", f"{self.REST_URL}/user")
+            resp.raise_for_status()
+            login = resp.json().get("login", "")
+            self._use_authenticated_repo_listing = (
+                login.lower() == self.username.lower()
+            )
+            if not self._use_authenticated_repo_listing:
+                logger.info(
+                    "Authenticated token belongs to @%s, but config username is @%s. "
+                    "Using public repo listing.",
+                    login or "unknown",
+                    self.username,
+                )
+        except (requests.exceptions.RequestException, ValueError) as e:
+            logger.warning(
+                "Could not verify authenticated user (%s). Using public repo listing.",
+                e,
+            )
+            self._use_authenticated_repo_listing = False
+
+        return self._use_authenticated_repo_listing
 
     def _search_count(self, query: str) -> int:
         """Use the GitHub Search API to get a total_count for a query."""
