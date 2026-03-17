@@ -69,9 +69,9 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
-  - repo: "CastilhoF/ms-mail-gateway"
+  - repo: "CastilhoF/ga-de-almeida-landing-page "
     arm: 0
-    description: "Microservice designed to meet the demand for email sending via front-end (form of customer websites) using Sendgrid, Backend in Chean Architecture and Nestjs."
+    description: "Almeida Demolição e Terraplenagem’s corporate landing page, built with Next.js (App Router), TypeScript, Tailwind CSS, and components based on the shadcn/ui standard"
   - repo: "CastilhoF/clean-architecture-nestjs-template"
     arm: 1
     description: "Template repository that uses Clean Architecture and NestJS as a base, already has several validation wrappers and works with a clean entity base, just id, createdAt and updatedAt."
