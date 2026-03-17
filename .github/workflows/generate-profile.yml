@@ -27,6 +27,32 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate TOKEN secret
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::Secret TOKEN is empty or unavailable to this job."
+            echo "::error::If TOKEN was created as an Environment secret, set 'environment:' on this job or move TOKEN to Repository secrets."
+            exit 1
+          fi
+
+          rest_status=$(curl -sS -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $TOKEN" \
+            https://api.github.com/user)
+
+          graphql_status=$(curl -sS -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Content-Type: application/json" \
+            -X POST https://api.github.com/graphql \
+            -d '{"query":"{ viewer { login } }"}')
+
+          if [ "$rest_status" -ne 200 ] || [ "$graphql_status" -ne 200 ]; then
+            echo "::error::Invalid or unauthorized TOKEN secret (REST=$rest_status, GraphQL=$graphql_status)."
+            echo "::error::Set TOKEN to the raw PAT value only (no 'TOKEN=' prefix, no quotes, no spaces/newlines)."
+            exit 1
+          fi
+
       - name: Generate SVGs
         env:
           TOKEN: ${{ secrets.TOKEN }}
